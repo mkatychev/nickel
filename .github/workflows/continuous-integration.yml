@@ -15,6 +15,7 @@ jobs:
     name: "run Macos Binaries"
     runs-on: macos-15
     steps:
+      - uses: actions/checkout@v6
       - name: test binary
         env:
           GH_TOKEN: ${{ github.token }}
