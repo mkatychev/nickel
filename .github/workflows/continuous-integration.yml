@@ -20,6 +20,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download static-libiconv-macos -p 'nickel' -D bin
-          chmod +x ./bin/nickel
-          ./bin/nickel --help
+          gh release download static-libiconv-macos -p 'rylm1c1hdafrph6rfxjfgmlpwssi3sr1-nickel' -D bin
+          chmod +x ./bin/rylm1c1hdafrph6rfxjfgmlpwssi3sr1-nickel
+          ./bin/rylm1c1hdafrph6rfxjfgmlpwssi3sr1-nickel --help
